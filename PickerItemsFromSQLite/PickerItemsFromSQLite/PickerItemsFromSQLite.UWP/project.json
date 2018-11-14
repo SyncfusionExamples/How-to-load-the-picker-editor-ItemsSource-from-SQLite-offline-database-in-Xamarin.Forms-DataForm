@@ -1,0 +1,24 @@
+﻿{
+  "dependencies": {
+    "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+    "sqlite-net-pcl": "1.0.11",
+    "SQLitePCL.raw_basic": "0.7.1",
+    "Syncfusion.Xamarin.Core": "16.2.0.50",
+    "Syncfusion.Xamarin.DataSource": "16.2.0.50",
+    "Syncfusion.Xamarin.GridCommon": "16.2.0.50",
+    "Syncfusion.Xamarin.SfDataForm": "16.2.0.50",
+    "Syncfusion.Xamarin.SfListView": "16.2.0.50",
+    "Xamarin.Forms": "2.4.0.282"
+  },
+  "frameworks": {
+    "uap10.0.10240": {}
+  },
+  "runtimes": {
+    "win10-arm": {},
+    "win10-arm-aot": {},
+    "win10-x86": {},
+    "win10-x86-aot": {},
+    "win10-x64": {},
+    "win10-x64-aot": {}
+  }
+}

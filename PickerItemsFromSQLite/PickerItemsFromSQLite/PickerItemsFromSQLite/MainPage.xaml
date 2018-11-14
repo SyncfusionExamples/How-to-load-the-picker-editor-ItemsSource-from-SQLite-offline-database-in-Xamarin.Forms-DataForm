@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PickerItemsFromSQLite.MainPage"
+             xmlns:local="clr-namespace:PickerItemsFromSQLite;assembly=PickerItemsFromSQLite"
+             xmlns:dataForm="clr-namespace:Syncfusion.XForms.DataForm;assembly=Syncfusion.SfDataForm.XForms">
+    <ContentPage.Behaviors>
+        <local:DataFormBehavior/>
+    </ContentPage.Behaviors>
+    <ContentPage.Content>
+        <Grid>
+            <dataForm:SfDataForm  x:Name="dataForm"></dataForm:SfDataForm>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
